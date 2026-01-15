@@ -1,5 +1,8 @@
 package com.maven.practice;
 
-public class Frontend {
-    public void display
+public class Frontend implements Project{
+    @Override
+    public void functionality(){
+        System.out.println();
+    }
 }
